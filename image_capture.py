@@ -9,7 +9,7 @@ url = "https://api.gardsfabriken.de/api/v1/farm/file?type=shed_cam"
 
 payload={}
 files=[
-  ('file',('Shed_Image' ,open('/home/pi/scripts/rasberryimage.png','rb'),'image/png'))
+  ('file',('Shed_Image.png' ,open('/home/pi/scripts/rasberryimage.png','rb'),'image/png'))
 ]
 headers = {}
 
