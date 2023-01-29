@@ -6,7 +6,6 @@
 | | | | |
 # * * * * * command to be executed
 
-* * * * * pi python /home/pi/scripts/farm.py
-* * * * * pi python /home/pi/scripts/image_capture.py
-* * * * * pi date > /run/crontest
-
+* * * * *  python /home/pi/scripts/farm.py
+* * * * *  python /home/pi/scripts/image_capture.py
+* * * * *  date > /run/crontest
