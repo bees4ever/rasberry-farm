@@ -1,0 +1,54 @@
+ToDO
+
+- Tmperatur Senor
+
+https://tutorials-raspberrypi.de/raspberry-pi-temperatur-mittels-sensor-messen/
+
+
+- kamera!
+https://www.amazon.de/gp/product/B00E1GGE40?ie=UTF8&linkCode=as2&camp=1634&creative=6738&tag=754-21&creativeASIN=B00E1GGE40
+
+https://tutorials-raspberrypi.de/aufnahmen-mit-dem-offiziellen-kamera-modul-des-raspberry-pi/
+
+
+- Wie kann man Aktionen Triggern??!!
+
+
+
+https://tutorials-raspberrypi.de/ueber-telegram-messenger-raspberry-pi-steuern/
+
+
+
+
+Interssant, aber nicht notwending
+https://tutorials-raspberrypi.de/entfernung-messen-mit-ultraschallsensor-hc-sr04/
+
+
+
+
+https://www.amazon.de/TSSS-Wasserpumpe-Submersible-Gartenteich-Unterhaltung/dp/B01I9BN3CI/ref=sr_1_5?_encoding=UTF8&camp=1634&creative=19450&dchild=1&keywords=12V+Mini+Pumpe&linkCode=ur2&qid=1619015241&sr=8-5
+
+
+
+https://www.amazon.de/AZDelivery-4-Relais-Optokoppler-Low-Level-Trigger-Arduino/dp/B078Q8S9S9/ref=sr_1_2_sspa?_encoding=UTF8&camp=1634&creative=19450&dchild=1&keywords=4+relais+modul&linkCode=ur2&qid=1619014584&sr=8-2-spons&psc=1&smid=A1X7QLRQH87QA3&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyNFRXWEpBSE9MMktXJmVuY3J5cHRlZElkPUEwNzk0OTAwM0lHQzRNRU5TSTlRRiZlbmNyeXB0ZWRBZElkPUEwMDQzMzkyMU5TWDBPRFpaRFVRMyZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=
+
+https://www.amazon.de/s?k=12V+Mini+Pumpe&_encoding=UTF8&camp=1634&creative=19450&linkCode=ur2&tag=754-21
+
+
+
+https://www.amazon.de/AZDelivery-digitaler-Temperatursensor-Temperaturf%C3%BChler-wasserdicht/dp/B07KNQJ3D7/ref=sr_1_1_sspa?_encoding=UTF8&camp=1634&creative=19450&dchild=1&keywords=DS1307&linkCode=ur2&qid=1619014578&sr=8-1-spons&smid=A1X7QLRQH87QA3&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFMRkVGTzhFMEFHWSZlbmNyeXB0ZWRJZD1BMDIyMjMxNlhISDQ4WUFSWDdRJmVuY3J5cHRlZEFkSWQ9QTA2NDQ3MjJWM0NRQ1I5STVRSVUmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl&th=1
+
+
+https://www.circuitbasics.com/raspberry-pi-ds18b20-temperature-sensor-tutorial/
+
+
+https://www.makershop.de/raspberry-pi/starter-kit-feuchtigkeitssensor/
+
+
+
+https://tutorials-raspberrypi.com/raspberry-pi-servo-motor-control/
+
+
+
+https://tutorials-raspberrypi.de/aufnahmen-mit-dem-offiziellen-kamera-modul-des-raspberry-pi/
+
