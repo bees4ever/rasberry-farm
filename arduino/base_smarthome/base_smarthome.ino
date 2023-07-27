@@ -1,8 +1,19 @@
 
 // TIME: https://playground.arduino.cc/Code/Time/?_gl=1*14yn4h1*_ga*MTYxNzc0MzMyNy4xNjg5NjE5Njc5*_ga_NEXN8H46L5*MTY4OTYxOTY3OC4xLjEuMTY4OTYyMDI4OS4wLjAuMA..
 #include <TimeLib.h>
+#include <OneWire.h>
+#include <DallasTemperature.h>
 
 /////// CONSTANTS
+#define ONE_WIRE_BUS 2
+OneWire oneWire(ONE_WIRE_BUS);
+// Pass our oneWire reference to Dallas Temperature. 
+DallasTemperature sensors(&oneWire);
+
+// Anleitungen: https://starthardware.org/arduino-ds18b20-temperaturmessung-mit-digitalem-sensor/
+// https://funduino.de/nr-16-feuchtigkeitssensor
+//
+
 
 int PIN_PUMP_RELEASE_A = 1;
 int PIN_PUMP_RELEASE_B = 1;
@@ -20,7 +31,7 @@ int PIN_ECHOLOT_ECHO = 6;
 void doPinConfig() {
   pinMode(PIN_ECHOLOT_TRIGGER, OUTPUT); // Trigger-Pin ist ein Ausgang
   pinMode(PIN_ECHOLOT_ECHO, INPUT); // Echo-Pin ist ein Eingang
-
+sensors.begin();
 }
 
 
@@ -29,7 +40,7 @@ void setupEthernet() {
 }
 
 
-bool sendValueToRasbery(String value) {,<. 
+bool sendValueToRasbery(String value) {
 
 }
 
@@ -37,7 +48,24 @@ bool sendValueToRasbery(String value) {,<.
 /*Functions to read values from PINS / Devices*/
 
 float getTemperature() {
-  return 1;
+   Serial.print("Requesting temperatures...");
+  sensors.requestTemperatures(); // Send the command to get temperatures
+  Serial.println("DONE");
+  // After we got the temperatures, we can print them here.
+  // We use the function ByIndex, and as an example get the temperature from the first sensor only.
+  float tempC = sensors.getTempCByIndex(0);
+  // Check if reading was successful
+  if(tempC != DEVICE_DISCONNECTED_C) 
+  {
+    Serial.print("Temperature for the device 1 (index 0) is: ");
+    Serial.println(tempC);
+  } 
+  else
+  {
+    Serial.println("Error: Could not read temperature data");
+    tempC = -100000000;
+  }
+  return tempC;
 }
 
 float getHumididty(int pin) {
@@ -149,5 +177,6 @@ void loop() {
 float distance = getDistance();
 getSoilHumidityByPlant("A");
 Serial.println(distance);
+getTemperature();
 delay(1000); //Das delay von einer Sekunde sorgt in ca. jeder neuen Sekunde für einen neuen Messwert.
 }
